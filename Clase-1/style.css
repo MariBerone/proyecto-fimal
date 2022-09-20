@@ -1,0 +1,476 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Estilo al Header*/
+
+.header-conteiner{
+    background-color: rgb(177, 215, 180);
+    color: rgb(255, 192, 144);
+    display: flex;
+}
+
+.logo-empresa{ 
+    height: 120px;
+    padding: 10%;
+}
+
+.section-inicio{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    font-size: 22px;
+    font-style: unset;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10%;
+
+ }
+
+.menu a{
+    color: rgb(72, 56, 56);
+    text-decoration: none;
+    padding: 20px;
+}
+
+.menu a:hover{
+    color: pink;
+}
+
+.instagram{
+    height: 50px;
+    padding: 5%;
+}
+
+.facebook{
+    height: 50px;
+    padding: 5%;
+}
+
+.img-what{
+    position: fixed;
+    bottom: 200px;
+    right: 20px;
+}
+
+/*Estilo del Body para el index*/
+
+.body-conteiner{
+    background-image: url(imagen/Ingresos.png);
+    background-size: cover;
+    opacity: 0.8;
+}
+
+/*Contenido del body de HOME*/
+
+.parrafo-uno{
+    font-size: 40px;
+    font-style: inherit;
+    display: flex;
+    justify-content: center;
+    color: rgb(252, 249, 198);
+    font-weight: bold;
+    padding: 70px;
+}
+
+.boton{
+    color: white;
+    font-size: 20px;
+    display: inline;
+    padding: 10px;
+    margin-left: 500px;
+    margin-top: 400px;
+}
+
+strong{
+    background-color: blue;
+}
+
+.img-what{
+    height: 80px;
+    width: 80px;
+}
+
+/*FOOTER*/
+
+footer{
+    width: 100%;
+    background-color: rgb(22, 33, 62);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 155px;
+}
+
+.descripcion{
+    font-size: 20px;
+    color: rgb(238, 242, 230);
+    font-style: unset;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.info{
+    flex-direction:column;
+    padding-right: 30px;
+
+}
+.info p{
+    color: rgb(238, 242, 230);
+    font-size: 15px;
+    font-style: unset;
+}
+
+.info a{
+    text-decoration: none;
+}
+
+.info img{
+    height: 20px;
+    width: 20px;
+}
+
+/* Estilo de todos mis h1*/
+
+h1{
+    font-size: 35px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 20px;
+}
+/* Estilo al reto de los body*/
+
+body{
+    background-color: aliceblue;
+}
+
+/*contenido del body de "LOTES"*/
+
+.p-lote {
+    font-size: 25px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+.p-lote1{
+    font-size: 20px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+    text-align: center;
+    margin-top: 3px;
+}
+
+.p-lote2{
+    font-size: 20px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+    text-align: center;
+    margin-top: 3px;
+}
+
+
+.descripcion-lote{
+    display: flex;
+    justify-content: space-between;
+}
+
+.imglotes{
+    width: 500px;
+    padding-right: 150px;
+    padding-top: 50px;
+}
+
+.detalle{
+    padding-top: 40px;
+    padding-left: 80px;
+    list-style: none;
+}
+
+.pinche{
+    height: 20px;
+    width: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.info{
+    font-size: 20px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+    padding-left: 20px;
+}
+
+.p-4{
+    font-size: 20px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+    font-weight: bold;
+    padding-left: 180px;
+}
+
+.mapa{
+    width: 300px;
+    height: 190px;
+    padding-left: 100px;
+}
+
+.p-5{
+    font-size: 30px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+}
+
+/*contenido del body de "AMENITIES"*/
+
+.p-amenities{
+    font-size: 30px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+    text-align: center;
+    margin-top: 10px;
+}
+.section-amenities{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3%;
+
+}
+
+.gimnasio{
+    width: 30%;
+}
+
+.gimnasio img{
+    width: 160px;
+    padding-left: 130px;
+}
+.gimnasio h2{
+    font-size: 20px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+    padding-left: 160px;
+}
+
+.gimnasio p{
+font-size: 15px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+    margin-right: 100px;
+    text-align: center;
+    padding-left: 90px;
+}
+
+.pileta{
+    width: 30%;
+}
+
+.pileta img{
+    width: 110px;
+    padding-left: 170px;
+}
+
+.pileta h2{
+    font-size: 20px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+    padding-left: 190px;
+
+}
+.pileta p{
+    font-size: 15px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+    padding-left: 20px;
+    text-align: center;
+    padding-left: 50px;
+}
+
+.seguridad{
+    width: 30%;
+}
+.seguridad img{
+    width: 95px;
+    padding-left: 130px;
+}
+.seguridad h2{
+    font-size: 20px;
+    font-style: inherit;
+    padding-left: 120px;
+}
+.seguridad p{
+    font-size: 15px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+    text-align: center;
+}
+
+.campo{
+    width: 30%;
+    margin-top: 20px;
+}
+.campo img{
+    width: 110px;
+    padding-left: 150px;
+}
+.campo h2{
+    font-size: 20px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+    padding-left: 110px;
+
+}
+.campo p{
+    font-size: 15px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+    text-align: center;
+}
+
+.panel{
+    width: 30%;
+    margin-top: 20px;
+}
+.panel img{
+    width: 120px;
+    padding-left: 170px;
+}
+.panel h2{
+    font-size: 20px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+    padding-left: 160px;
+
+}
+.panel p{
+    font-size: 15px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+    text-align: center;
+    padding-left: 70px;
+}
+
+.espacios{
+    width: 30%;
+}
+.espacios img{
+    width: 150px;
+    padding-left: 120px;
+}
+.espacios h2{
+    font-size: 20px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+    padding-left: 110px;
+
+}
+.espacios p{
+    font-size: 15px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+    padding-left: 60px;
+    text-align: center;
+}
+
+
+/*contenido del body de "GALERIA"*/
+
+.p-galeria{
+    font-size: 30px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+    text-align: center;
+    padding-top: 5px;
+}
+
+.img-galeria{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 300px;
+    gap: 20px;
+    padding: 50px 30px;
+    
+}
+
+.foto{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    -webkit-box-shadow: -8px 7px 11px -1px rgba(0,0,0,0.47);
+    -moz-box-shadow: -8px 7px 11px -1px rgba(0,0,0,0.47);
+    box-shadow: -8px 7px 11px -1px rgba(0,0,0,0.47);
+}
+
+@media only screen and (max-width: 450px){
+    .img-galeria{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 250px;
+    }
+    .p-galeria{
+        font-size: 20px;
+    }
+    .foto{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    h1{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 451px) and (max-width: 960px){
+    .img-galeria{
+        display: grid;
+        grid-template-columns:repeat(2, 1fr);
+        grid-auto-rows: 200px;
+        }
+    .p-galeria{
+        font-size: 25px;
+        }
+    .foto{
+        grid-column: span 1;
+        grid-row: span 1;
+        }
+    h1{
+        font-size: 25px;
+        }
+}
+
+/*contenido del body de "CONTACTO"*/
+
+.p-contacto{
+    font-size: 30px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.p2-contacto{
+    font-size: 17px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+    padding-top: 100px;
+    padding-left: 40px;
+    font-weight: bold;
+
+}
+
+.p3-contacto{
+    font-size: 20px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+    padding-left: 80px;
+    padding-top: 7px;
+}
