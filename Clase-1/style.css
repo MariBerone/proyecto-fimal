@@ -5,7 +5,7 @@
 
 /*Estilo al Header*/
 
-/*.body1-conteiner{
+/* .body-conteiner{
     width: 100%;
     margin: 0 auto;
     display: grid;
@@ -15,20 +15,11 @@
     "header-grid header-grid header-grid"
     "main-grid main-grid main-grid"
     "footer-grid footer-grid footer-grid"
-}*/
+} */
 
 .header-conteiner{
     background-color: rgb(177, 215, 180);
     color: rgb(255, 192, 144);
-    /* grid-area: header-grid; */
-}
-
-.main-conteiner{
-    /* grid-area: main-grid; */
-    background-image: url(imagen/Ingresos.png);
-    background-repeat: cover
-    opacity: 0.8;
-    height: 100vh;
 }
 
 .logo-empresa{ 
@@ -80,16 +71,11 @@ nav ul{
 
 /*Estilo del Body para el index*/
 
-/*.body-conteiner{
+.body-conteiner{
     background-image: url(imagen/Ingresos.png);
     background-size: cover;
     opacity: 0.8;
-}*/
-
-.idex-inicio{
-    background-image: url(imagen/Ingresos.png);
-    opacity: 0.6;
-    background-size: cover;
+    height: 100vh;
 }
 
 /*Contenido del body de HOME*/
@@ -124,11 +110,11 @@ strong{
 
 /*FOOTER*/
 
-.footer-conteiner{
+footer{
     background-color: rgb(22, 33, 62);
-    /* grid-area: footer-grid; */
     display: flex;
-   
+    justify-content: space-between;
+    margin-top: 155px;
 }
 
 .descripcion{
@@ -265,19 +251,18 @@ body{
     text-align: center;
     margin-top: 10px;
 }
+
 .section-amenities{
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 3%;
-
-}
-
-.gimnasio{
-    width: 30%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    padding: 50px 30px;
 }
 
 .gimnasio img{
-    width: 160px;
+    width: 180px;
     padding-left: 130px;
 }
 .gimnasio h2{
@@ -294,10 +279,6 @@ font-size: 15px;
     margin-right: 100px;
     text-align: center;
     padding-left: 90px;
-}
-
-.pileta{
-    width: 30%;
 }
 
 .pileta img{
@@ -320,10 +301,6 @@ font-size: 15px;
     text-align: center;
     padding-left: 50px;
 }
-
-.seguridad{
-    width: 30%;
-}
 .seguridad img{
     width: 95px;
     padding-left: 130px;
@@ -341,7 +318,6 @@ font-size: 15px;
 }
 
 .campo{
-    width: 30%;
     margin-top: 20px;
 }
 .campo img{
@@ -363,7 +339,6 @@ font-size: 15px;
 }
 
 .panel{
-    width: 30%;
     margin-top: 20px;
 }
 .panel img{
@@ -385,9 +360,6 @@ font-size: 15px;
     padding-left: 70px;
 }
 
-.espacios{
-    width: 30%;
-}
 .espacios img{
     width: 150px;
     padding-left: 120px;
@@ -407,6 +379,47 @@ font-size: 15px;
     text-align: center;
 }
 
+@media only screen and (max-width: 450px){
+    .section-amenities{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 250px;
+    }
+    .gimnasio p{
+        font-size: 25px;
+    }
+    .gimnasio img{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .gimnasio h2{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 451px) and (max-width: 960px){
+       .section-amenities{
+        display: grid;
+        grid-template-columns:repeat(2, 1fr);
+        grid-auto-rows: 200px;
+        }
+        .gimnasio p{
+            font-size: 25px;
+        }
+        .gimnasio img{
+            grid-column: span 1;
+            grid-row: span 1;
+        }
+        h1{
+            font-size: 30px;
+        }
+        .gimnasio h2{
+            font-size: 20px;
+        }
+}
 
 /*contenido del body de "GALERIA"*/
 
