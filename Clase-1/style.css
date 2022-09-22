@@ -5,11 +5,32 @@
 
 /*Estilo al Header*/
 
+.body1-conteiner{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 150px 600px 150px;
+    grid-template-areas:
+    "header-grid header-grid header-grid"
+    "main-grid main-grid main-grid"
+    "footer-grid footer-grid footer-grid"
+}
+
 .header-conteiner{
     background-color: rgb(177, 215, 180);
     color: rgb(255, 192, 144);
-    display: flex;
+    grid-area: header-grid;
 }
+
+.main-conteiner{
+    grid-area: main-grid;
+}
+/*.header-conteiner{
+    background-color: rgb(177, 215, 180);
+    color: rgb(255, 192, 144);
+    display: flex;
+}*/
 
 .logo-empresa{ 
     height: 120px;
@@ -98,12 +119,11 @@ strong{
 
 /*FOOTER*/
 
-footer{
-    width: 100%;
+.footer-conteiner{
     background-color: rgb(22, 33, 62);
+    grid-area: footer-grid;
     display: flex;
-    justify-content: space-between;
-    margin-top: 155px;
+   
 }
 
 .descripcion{
