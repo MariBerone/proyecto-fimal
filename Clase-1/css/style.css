@@ -1,3 +1,127 @@
+/*Estilo del header*/
+.header .background-nav {
+  background-color: rgb(177, 215, 180);
+  color: rgb(255, 192, 144);
+  font-size: 30px;
+  font-style: unset;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-decoration: none;
+}
+.header .background-nav .img-logo {
+  width: 100px;
+}
+.header .background-nav .img-logo .navbar-nav:hover {
+  color: rgb(28, 103, 88);
+  transform: scale(1.2);
+  transition: all 2s;
+}
+.header .background-nav .img-logo .navbar-nav .nav-link {
+  text-decoration: none;
+  color: rgb(251, 242, 207);
+}
 
+/*Estilo del Footer*/
+footer {
+  background-color: rgb(22, 33, 62);
+  display: flex;
+  justify-content: space-between;
+}
+footer .minislogan .descripcion {
+  font-size: 20px;
+  color: rgb(238, 242, 230);
+  font-style: unset;
+  margin-top: 15px;
+  padding-left: 10px;
+}
+footer .minislogan .redes {
+  padding: 10px;
+}
+footer .minislogan .redes img {
+  height: 50px;
+}
+footer .info-empresa {
+  padding: 20px;
+}
+footer .info-empresa .info p {
+  color: rgb(238, 242, 230);
+  font-size: 12px;
+  font-style: unset;
+}
+footer .info-empresa .info .ubicacion {
+  display: flex;
+  flex-direction: row;
+}
+footer .info-empresa .info .ubicacion img {
+  height: 20px;
+  width: 20px;
+}
+footer .info-empresa .info .ubicacion img p {
+  color: rgb(238, 242, 230);
+  font-size: 12px;
+  font-style: unset;
+}
+footer .info-empresa .cel {
+  display: flex;
+  flex-direction: row;
+}
+footer .info-empresa .cel img {
+  height: 20px;
+  width: 20px;
+}
+footer .info-empresa .cel img a {
+  text-decoration: none;
+}
+footer .info-empresa .email {
+  display: flex;
+  flex-direction: row;
+}
+footer .info-empresa .email img {
+  height: 20px;
+  width: 20px;
+}
+footer .info-empresa .email img a {
+  text-decoration: none;
+}
+footer .info-empresa .email img a p {
+  color: rgb(238, 242, 230);
+  font-size: 12px;
+  font-style: unset;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Estilo de body home*/
+.main-conteiner {
+  background-image: url(Imagen/Ingresos.png);
+  opacity: 0.8;
+  height: 100vh;
+  background-size: cover;
+  width: 100%;
+}
+.main-conteiner .asesorate {
+  font-size: 30px;
+  font-style: inherit;
+  text-align: center;
+  color: rgb(252, 249, 198);
+  font-weight: bold;
+  padding-top: 100px;
+}
+.main-conteiner .asesorate .img-what {
+  width: 80px;
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+}
+.main-conteiner .asesorate .img-what .parrafo-uno {
+  font-size: 50px;
+  font-style: inherit;
+  text-align: center;
+  color: rgb(252, 249, 198);
+  font-weight: bold;
+  padding-top: 150px;
+}
 
 /*# sourceMappingURL=style.css.map */

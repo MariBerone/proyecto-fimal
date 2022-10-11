@@ -1,0 +1,28 @@
+/*Estilo del header*/
+
+.header{
+    .background-nav{
+        background-color: rgb(177, 215, 180);
+        color: rgb(255, 192, 144);
+        font-size: 30px;
+        font-style: unset;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-decoration: none;
+            .img-logo{
+                width: 100px;
+                .navbar-nav{
+                    &:hover{
+                        color: rgb(28, 103, 88);
+                        transform: scale(1.2);
+                        transition: all 2s;
+
+                        }
+                    
+                .nav-link{
+                    text-decoration: none;
+                    color: rgb(251, 242, 207);
+                }
+            }
+        }
+    }
+}
