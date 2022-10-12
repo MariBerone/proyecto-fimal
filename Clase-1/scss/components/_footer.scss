@@ -3,7 +3,9 @@ footer{
     background-color: rgb(22, 33, 62);
     display: flex;
     justify-content: space-between;
-    .minislogan{
+    position: relative;
+    margin-top: 200px;
+    .descrip-1{
         .descripcion{
             font-size: 20px;
             color: rgb(238, 242, 230);
@@ -12,60 +14,61 @@ footer{
             padding-left: 10px;
         }
         .redes{
-            padding: 10px ;
-          img{
-            height: 50px;
-          }   
+            padding: 10px;
+            .instagram{
+                height: 50px;
+            }
+            .facebook{
+                height: 50px;
+            }
         }
-    }
+    }      
     .info-empresa{
         padding: 20px;
         .info{
-            p{
                 color: rgb(238, 242, 230);
                 font-size: 12px;
                 font-style: unset;
-
-            }
+        }
         .ubicacion{
                 display: flex;
                 flex-direction: row;
             img{
                 height: 20px;
                 width: 20px;
+            } 
             p{
                 color: rgb(238, 242, 230);
                 font-size: 12px;
                 font-style: unset;
-            }
+            }   
             }    
-            }    
-        }
         .cel{
             display: flex;
             flex-direction: row;
             img{
                 height: 20px;
                 width: 20px;
+            }
             a{
                 text-decoration: none;
+                color: rgb(238, 242, 230);
             }    
             }
-        }
         .email{
             display: flex;
             flex-direction: row;
             img{
                 height: 20px;
                 width: 20px;
+            }
             a{
                 text-decoration: none;
+            }
             p{
                 color: rgb(238, 242, 230);
                 font-size: 12px;
-                font-style: unset;
-            }    
-            }    
+                font-style: unset;   
             }
         }
     }

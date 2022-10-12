@@ -1,0 +1,90 @@
+/*Estilo de body amenities*/
+@import '../base/mixin';
+.main1{
+    .amenities0{
+        .p-amenities{
+           @include colores(rgb(15, 52, 96), 40px, herit, center, 10px)
+        }
+    }
+    .section-amenities{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        padding: 50px 30px;
+        .gimnasio{
+            text-align: center;
+            margin-top: 11px;
+            img{
+                width: 250px;
+            }
+            h2{
+               @include estilo-amenities(rgb(15, 52, 96), 30px, herit)
+            }
+            p{
+               @include estilo-amenities(rgb(15, 52, 96), 20px, herit)
+            }
+        }
+        .pileta{
+            text-align: center;
+            img{
+                width: 190px;
+            }
+            h2{
+                @include estilo-amenities(rgb(15, 52, 96), 30px, herit)
+            }
+            p{
+                @include estilo-amenities(rgb(15, 52, 96), 20px, herit)
+            }
+        }
+        .seguridad{
+            text-align: center;
+            img{
+                width: 155px;
+            }
+            h2{
+                @include estilo-amenities(rgb(15, 52, 96), 30px, herit)
+            }
+            p{
+                @include estilo-amenities(rgb(15, 52, 96), 20px, herit)
+            }
+        }
+        .campo{
+            text-align: center;
+            img{
+                width: 180px;
+            }
+            h2{
+                @include estilo-amenities(rgb(15, 52, 96), 30px, herit)
+            }
+            p{
+                @include estilo-amenities(rgb(15, 52, 96), 20px, herit)
+            }
+        }
+        .panel{
+            text-align: center;
+            img{
+                width: 180px;
+            }
+            h2{
+                @include estilo-amenities(rgb(15, 52, 96), 30px, herit)
+            }
+            p{
+                @include estilo-amenities(rgb(15, 52, 96), 20px, herit)
+            }
+        }
+        .espacios{
+            text-align: center;
+            img{
+                width: 200px;
+            }
+            h2{
+                @include estilo-amenities(rgb(15, 52, 96), 30px, herit)
+            }
+            p{
+                @include estilo-amenities(rgb(15, 52, 96), 20px, herit)
+            }
+        }
+    }
+}

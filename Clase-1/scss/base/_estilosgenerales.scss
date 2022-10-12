@@ -2,3 +2,23 @@
     margin: 0;
     padding: 0;
 }
+
+/*Estilo de todos los bodys menos Index*/
+body{
+    background-color: aliceblue;
+}
+
+/*Estilo de los H1*/
+h1{
+    font-size: 40px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 20px;
+    &:hover{
+        transform: scale(2);
+        transition: all 2s;
+        color: rgb(27, 36, 48);
+    }
+}

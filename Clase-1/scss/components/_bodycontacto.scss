@@ -1,0 +1,30 @@
+/* Estilos del body de contacto*/
+
+@import '../base/mixin';
+
+
+main{
+    .sect-contacto0{
+        .p-contacto{
+            @include colores (rgb(15, 52, 96), 30px, herit, center, 20px)
+        }
+    }
+    .sect-contacto1{
+        .p2-contacto{
+            font-size: 17px;
+            font-style: inherit;
+            color: rgb(15, 52, 96);
+            padding-top: 100px;
+            padding-left: 40px;
+            font-weight: bold;
+        }
+        .p3-contacto{
+            font-size: 20px;
+            font-style: inherit;
+            color: rgb(15, 52, 96);
+            padding-left: 80px;
+            padding-top: 7px;
+            padding-bottom: 130px;
+        }
+    }
+}

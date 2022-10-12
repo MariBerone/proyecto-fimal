@@ -1,0 +1,13 @@
+
+@mixin colores($color, $font-zice, $font-style, $text-align, $margin-top) {
+    color: $color;
+    font-size: $font-zice;
+    font-style: $font-style;
+    text-align: $text-align;
+    margin-top: $margin-top;
+}
+@mixin estilo-amenities ($color, $font-zice, $font-style) {
+    color: $color;
+    font-size: $font-zice;
+    font-style: $font-style;
+}

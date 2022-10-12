@@ -1,0 +1,28 @@
+/*Estilo del body Galeria*/
+
+@import '../base/mixin';
+
+main{
+    .sect-galeria0{
+       .p-galeria{
+        @include colores (rgb(15, 52, 96), 30px, herit, center, 5px)
+       }
+    }
+    .sect-galeria1{
+        .img-galeria{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-auto-rows: 300px;
+            gap: 20px;
+            padding: 50px 30px;
+        }
+        .foto{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            -webkit-box-shadow: -8px 7px 11px -1px rgba(0,0,0,0.47);
+            -moz-box-shadow: -8px 7px 11px -1px rgba(0,0,0,0.47);
+            box-shadow: -8px 7px 11px -1px rgba(0,0,0,0.47);
+        }
+    }
+}
