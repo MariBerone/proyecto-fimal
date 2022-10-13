@@ -75,6 +75,16 @@ footer .info-empresa .email a {
 body {
   background-color: aliceblue;
 }
+@media only screen and (max-width: 450px) {
+  body {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  body {
+    width: 100%;
+  }
+}
 
 /*Estilo de los H1*/
 h1 {
@@ -547,6 +557,69 @@ footer .info-empresa .ubicacion img, footer .info-empresa .cel img, footer .info
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 200px;
+  }
+}
+/*Body Lotes*/
+@media only screen and (max-width: 450px) {
+  main .sect1 .p-lotes {
+    font-size: 18px;
+  }
+  main .sect1 .p-lotes1 {
+    font-size: 15px;
+  }
+  main .sect1 .p-lotes2 {
+    font-size: 15px;
+  }
+  main .descripcion-lote .detalle .pinche {
+    height: 16px;
+    width: 16px;
+  }
+  main .descripcion-lote .detalle .info {
+    font-size: 15px;
+  }
+  main .descripcion-lote .imglotes {
+    width: 350px;
+  }
+  main .sect3 .p-4 {
+    font-size: 15px;
+  }
+  main .sect3 .mapa {
+    height: 200px;
+    width: 100px;
+  }
+  main .sect4 .p-5 {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  main .sect1 .p-lotes {
+    font-size: 21px;
+  }
+  main .sect1 .p-lotes1 {
+    font-size: 18px;
+  }
+  main .sect1 .p-lotes2 {
+    font-size: 18px;
+  }
+  main .descripcion-lote .detalle .pinche {
+    height: 18px;
+    width: 18px;
+  }
+  main .descripcion-lote .detalle .info {
+    font-size: 18px;
+  }
+  main .descripcion-lote .imglotes {
+    width: 450px;
+  }
+  main .sect3 .p-4 {
+    font-size: 18px;
+  }
+  main .sect3 .mapa {
+    height: 250px;
+    width: 200px;
+  }
+  main .sect4 .p-5 {
+    font-size: 25px;
   }
 }
 

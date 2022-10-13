@@ -213,3 +213,90 @@
         }
     }
 }
+/*Body Lotes*/
+@media only screen and (max-width: 450px){
+     main{
+        .sect1{
+            .p-lotes{
+                font-size: 18px;
+            }
+            .p-lotes1{
+                font-size: 15px;
+            }
+            .p-lotes2{
+                font-size: 15px;
+            }
+        }
+        .descripcion-lote{
+            .detalle{
+                .pinche{
+                    height: 16px;
+                    width: 16px;
+                }
+                .info{
+                    font-size: 15px;
+                }
+            }
+            .imglotes{
+                width: 350px;
+            }
+        }
+        .sect3{
+            .p-4{
+                font-size: 15px;
+            }
+            .mapa{
+                height: 200px;
+                width: 100px;
+            }
+        }
+        .sect4{
+            .p-5{
+                font-size: 20px;
+            }
+        }
+    }
+}
+@media only screen and (min-width: 451px) and (max-width: 960px){
+    main{
+        .sect1{
+            .p-lotes{
+                font-size: 21px;
+            }
+            .p-lotes1{
+                font-size: 18px;
+            }
+            .p-lotes2{
+                font-size: 18px;
+            }
+        }
+        .descripcion-lote{
+            .detalle{
+                .pinche{
+                    height: 18px;
+                    width: 18px;
+                }
+                .info{
+                    font-size: 18px;
+                }
+            }
+            .imglotes{
+                width: 450px;
+            }
+        }
+        .sect3{
+            .p-4{
+                font-size: 18px;
+            }
+            .mapa{
+                height: 250px;
+                width: 200px;
+            }
+        }
+        .sect4{
+            .p-5{
+                font-size: 25px;
+            }
+        }
+    }
+}
