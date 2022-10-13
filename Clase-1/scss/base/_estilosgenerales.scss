@@ -21,4 +21,10 @@ h1{
         transition: all 2s;
         color: rgb(27, 36, 48);
     }
+    @media only screen and (max-width: 450px){
+            font-size: 30px;
+    }
+    @media only screen and (min-width: 451px) and (max-width: 960px){
+            font-size: 35px;
+    }
 }

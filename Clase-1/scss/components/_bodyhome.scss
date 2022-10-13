@@ -1,5 +1,8 @@
 /*Estilo de body home*/
 
+@import '../base/mixin';
+
+
 .main-conteiner{
     .fondo{
         opacity: 0.8;
@@ -11,25 +14,14 @@
     }
     .contenido{
         .parrafo-uno{
-            position: relative;
-            font-size: 50px;
-            font-style: inherit;
-            text-align: center;
-            color: rgb(252, 249, 198);
-            font-weight: bold;
-            padding-top: 150px
+
+            @include estilo-index (relative, 50px, inherit, center,rgb(252, 249, 198), bold, 150px)
         }
         .asesorate{
-            position: relative;
-            font-size: 30px;
-            font-style: inherit;
-            text-align: center;
-            color: rgb(252, 249, 198);
-            font-weight: bold;
-            padding-top: 100px;
             strong{
                 background-color: blue;
-            }
+                }
+            @include estilo-index (relative, 30px, inherit, center,rgb(252, 249, 198), bold, 100px)
         }
     }
     .img-what{

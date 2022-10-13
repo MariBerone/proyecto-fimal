@@ -11,3 +11,14 @@
     font-size: $font-zice;
     font-style: $font-style;
 }
+
+@mixin estilo-index ($position, $font-size, $font-style, $text-align, $color, $font-weight, $padding-top){
+    position: $position;
+    font-size: $font-size;
+    font-style: $font-style;
+    text-align: $text-align;
+    color: $color;
+    font-weight: $font-weight;
+    padding-top: $padding-top;
+}
+

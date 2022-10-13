@@ -17,6 +17,22 @@
 }
 
 /*Estilo del Footer*/
+footer .info-empresa .email, footer .info-empresa .cel, footer .info-empresa .ubicacion {
+  display: flex;
+  flex-direction: row;
+}
+
+footer .info-empresa .email p, footer .info-empresa .ubicacion p, footer .info-empresa .info {
+  color: rgb(238, 242, 230);
+  font-size: 12px;
+  font-style: unset;
+}
+
+footer .info-empresa .email img, footer .info-empresa .cel img, footer .info-empresa .ubicacion img {
+  height: 20px;
+  width: 20px;
+}
+
 footer {
   background-color: rgb(22, 33, 62);
   display: flex;
@@ -43,53 +59,13 @@ footer .descrip-1 .redes .facebook {
 footer .info-empresa {
   padding: 20px;
 }
-footer .info-empresa .info {
-  color: rgb(238, 242, 230);
-  font-size: 12px;
-  font-style: unset;
-}
-footer .info-empresa .ubicacion {
-  display: flex;
-  flex-direction: row;
-}
-footer .info-empresa .ubicacion img {
-  height: 20px;
-  width: 20px;
-}
-footer .info-empresa .ubicacion p {
-  color: rgb(238, 242, 230);
-  font-size: 12px;
-  font-style: unset;
-}
-footer .info-empresa .cel {
-  display: flex;
-  flex-direction: row;
-}
-footer .info-empresa .cel img {
-  height: 20px;
-  width: 20px;
-}
 footer .info-empresa .cel a {
   text-decoration: none;
   color: rgb(238, 242, 230);
 }
-footer .info-empresa .email {
-  display: flex;
-  flex-direction: row;
-}
-footer .info-empresa .email img {
-  height: 20px;
-  width: 20px;
-}
 footer .info-empresa .email a {
   text-decoration: none;
 }
-footer .info-empresa .email p {
-  color: rgb(238, 242, 230);
-  font-size: 12px;
-  font-style: unset;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -113,6 +89,16 @@ h1:hover {
   transform: scale(2);
   transition: all 2s;
   color: rgb(27, 36, 48);
+}
+@media only screen and (max-width: 450px) {
+  h1 {
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  h1 {
+    font-size: 35px;
+  }
 }
 
 /*Estilo de body home*/
@@ -385,6 +371,183 @@ main .sect-contacto1 .p3-contacto {
   padding-left: 80px;
   padding-top: 7px;
   padding-bottom: 130px;
+}
+
+footer .info-empresa .ubicacion, footer .info-empresa .cel, footer .info-empresa .email {
+  display: flex;
+  flex-direction: row;
+}
+
+footer .info-empresa .info, footer .info-empresa .ubicacion p, footer .info-empresa .email p {
+  color: rgb(238, 242, 230);
+  font-size: 12px;
+  font-style: unset;
+}
+
+footer .info-empresa .ubicacion img, footer .info-empresa .cel img, footer .info-empresa .email img {
+  height: 20px;
+  width: 20px;
+}
+
+/* Mediaquery*/
+/*body del index*/
+@media only screen and (max-width: 450px) {
+  .main-conteiner .fondo {
+    width: 100%;
+  }
+  .main-conteiner .contenido .parrafo-uno {
+    font-size: 20px;
+  }
+  .main-conteiner .contenido .asesorate {
+    font-size: 15px;
+    padding-top: 50px;
+  }
+  .main-conteiner .img-what {
+    width: 50px;
+  }
+  .main-conteiner .descripcion {
+    font-size: 8px;
+  }
+  .main-conteiner .info p {
+    font-size: 5px;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  .main-conteiner .fondo {
+    width: 100%;
+  }
+  .main-conteiner .contenido .parrafo-uno {
+    font-size: 35px;
+  }
+  .main-conteiner .contenido .asesorate {
+    font-size: 25px;
+    padding-top: 50px;
+  }
+  .main-conteiner .img-what {
+    width: 60px;
+    bottom: 20px;
+    right: 10px;
+  }
+  .main-conteiner .descripcion {
+    font-size: 12px;
+  }
+  .main-conteiner .info p {
+    font-size: 8px;
+  }
+}
+/*Body Amenities*/
+@media only screen and (max-width: 450px) {
+  .main1 .amenities0 .p-amenities {
+    font-size: 25px;
+  }
+  .main1 .section-amenities {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 250px;
+  }
+  .main1 .section-amenities .gimnasio h2 {
+    font-size: 20px;
+  }
+  .main1 .section-amenities .gimnasio p {
+    font-size: 15px;
+  }
+  .main1 .section-amenities .pileta h2 {
+    font-size: 20px;
+  }
+  .main1 .section-amenities .pileta p {
+    font-size: 15px;
+  }
+  .main1 .section-amenities .seguridad h2 {
+    font-size: 20px;
+  }
+  .main1 .section-amenities .seguridad p {
+    font-size: 15px;
+  }
+  .main1 .section-amenities .campo h2 {
+    font-size: 20px;
+  }
+  .main1 .section-amenities .campo p {
+    font-size: 15px;
+  }
+  .main1 .section-amenities .panel h2 {
+    font-size: 20px;
+  }
+  .main1 .section-amenities .panel p {
+    font-size: 15px;
+  }
+  .main1 .section-amenities .espacios h2 {
+    font-size: 20px;
+  }
+  .main1 .section-amenities .espacios p {
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  .main1 .amenities0 .p-amenities {
+    font-size: 30px;
+  }
+  .main1 .section-amenities {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 300px;
+  }
+  .main1 .section-amenities .gimnasio h2 {
+    font-size: 25px;
+  }
+  .main1 .section-amenities .gimnasio p {
+    font-size: 20px;
+  }
+  .main1 .section-amenities .pileta h2 {
+    font-size: 25px;
+  }
+  .main1 .section-amenities .pileta p {
+    font-size: 20px;
+  }
+  .main1 .section-amenities .seguridad h2 {
+    font-size: 25px;
+  }
+  .main1 .section-amenities .seguridad p {
+    font-size: 20px;
+  }
+  .main1 .section-amenities .campo h2 {
+    font-size: 25px;
+  }
+  .main1 .section-amenities .campo p {
+    font-size: 20px;
+  }
+  .main1 .section-amenities .panel h2 {
+    font-size: 25px;
+  }
+  .main1 .section-amenities .panel p {
+    font-size: 20px;
+  }
+  .main1 .section-amenities .espacios h2 {
+    font-size: 25px;
+  }
+  .main1 .section-amenities .espacios p {
+    font-size: 20px;
+  }
+}
+/*Body Galeria*/
+@media only screen and (max-width: 450px) {
+  main .sect-galeria0 .p-galeria {
+    font-size: 20px;
+  }
+  main .sect-galeria1 .img-galeria {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 250px;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  main .sect-galeria0 .p-galeria {
+    font-size: 25px;
+  }
+  main .sect-galeria1 .img-galeria {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 200px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
