@@ -16,17 +16,19 @@ main{
     .descripcion-lote{
         display: flex;
         justify-content: space-between;
+        // text-align: center;
         .detalle{
-            padding-top: 40px;
-            padding-left: 80px;
+            // padding-top: 40px;
+            // padding-left: 80px;
             list-style: none;
             .pinche{
                 height: 20px;
                 width: 20px;
-                padding-left: 10px;
-                padding-top: 10px;
+                // padding-left: 10px;
+                // padding-top: 10px;
             }
             .info{
+                text-align: center;
                 font-size: 20px;
                 font-style: inherit;
                 color: rgb(15, 52, 96);
@@ -34,9 +36,9 @@ main{
             }
         }
         .imglotes{
-            width: 600px;
-            padding-right: 150px;
-            padding-top: 50px;
+            width: 500px;
+            padding-right: 50px;
+            padding-top: 40px;
         }
     }
     .sect3{

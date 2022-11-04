@@ -10,8 +10,8 @@
                  font-size: 20px;
             }
             .asesorate{
-                 font-size: 15px;
-                 padding-top: 50px;
+                width: 50%;
+                 font-size: 13px;
             }
         }
         .img-what{
@@ -33,11 +33,11 @@
         }
         .contenido{
             .parrafo-uno{
-                 font-size: 35px;
+                 font-size: 25px;
             }
             .asesorate{
-                 font-size: 25px;
-                 padding-top: 50px;
+                width: 60%;
+                 font-size: 15px;
             }
         }
         .img-what{
@@ -50,6 +50,97 @@
         }
         .info p{
            font-size: 8px;
+        }
+    }
+}
+
+/*Body Lotes*/
+
+@media only screen and (max-width: 450px){
+    main{
+        .sect1{
+            .p-lote{
+                font-size: 18px;
+            }
+            .p-lote1{
+                font-size: 15px;
+            }
+            .p-lote2{
+                font-size: 15px;
+            }
+        }
+        .descripcion-lote{
+                display: grid;
+                grid-template-columns: 1fr;
+                align-items: center;
+
+            .detalle{
+                .info{
+                    font-size: 13px;
+                }
+            }
+            .imglotes{
+                align-items: center;
+                padding-left: 100px;
+                width: 450px;
+
+            }
+        }
+        .sect3{
+            .p-4{
+                font-size: 18px;
+            }
+            .mapa{
+                height: 200px;
+                width: 350px;
+            }
+        }
+        .sect4{
+            .p-5{
+                font-size: 20px;
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 451px) and (max-width: 960px){
+    main{
+        .sect1{
+            .p-lote{
+                font-size: 22px;
+            }
+            .p-lote1{
+                font-size: 18px;
+            }
+            .p-lote2{
+                font-size: 18px;
+            }
+        }
+        .descripcion-lote{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                // grid-auto-rows: 100px;
+                gap: 40px;
+                align-items: center;
+            .detalle{
+                // padding: 30px 20px;
+                .info{
+                    font-size: 18px;
+                }
+            }
+            .imglotes{
+                width: 100%;
+            }
+        }
+        .sect3{
+            .p-4{
+                font-size: 22px;
+            }
+            .mapa{
+                height: 250px;
+                width: 300px;
+            }
         }
     }
 }
@@ -213,89 +304,82 @@
         }
     }
 }
-/*Body Lotes*/
+
+/*Contato*/
 @media only screen and (max-width: 450px){
-     main{
-        .sect1{
-            .p-lotes{
+    main{
+        .sect-contacto0{
+            .p-contacto{
                 font-size: 18px;
             }
-            .p-lotes1{
+        }
+        .sect-contacto1{
+            .p2-contacto{
                 font-size: 15px;
             }
-            .p-lotes2{
-                font-size: 15px;
-            }
-        }
-        .descripcion-lote{
-            .detalle{
-                .pinche{
-                    height: 16px;
-                    width: 16px;
-                }
-                .info{
-                    font-size: 15px;
-                }
-            }
-            .imglotes{
-                width: 350px;
-            }
-        }
-        .sect3{
-            .p-4{
-                font-size: 15px;
-            }
-            .mapa{
-                height: 200px;
-                width: 100px;
-            }
-        }
-        .sect4{
-            .p-5{
-                font-size: 20px;
+            .p-contacto3{
+                font-size: 16px;
+
             }
         }
     }
 }
+
 @media only screen and (min-width: 451px) and (max-width: 960px){
     main{
-        .sect1{
-            .p-lotes{
-                font-size: 21px;
-            }
-            .p-lotes1{
-                font-size: 18px;
-            }
-            .p-lotes2{
-                font-size: 18px;
-            }
-        }
-        .descripcion-lote{
-            .detalle{
-                .pinche{
-                    height: 18px;
-                    width: 18px;
-                }
-                .info{
-                    font-size: 18px;
-                }
-            }
-            .imglotes{
-                width: 450px;
-            }
-        }
-        .sect3{
-            .p-4{
-                font-size: 18px;
-            }
-            .mapa{
-                height: 250px;
-                width: 200px;
-            }
-        }
-        .sect4{
-            .p-5{
+        .sect-contacto0{
+            .p-contacto{
                 font-size: 25px;
+            }
+        }
+        .sect-contacto1{
+            .p2-contacto{
+                font-size: 18px;
+            }
+            .p-contacto3{
+                font-size: 18px;
+
+            }
+        }
+    }
+}
+/*Fotter*/
+
+@media only screen and (max-width: 450px){
+    footer{
+        .descrip-1{
+            .descripcion{
+                p{
+                    font-size: 14px ;
+                }
+            }
+            .redes{
+                .instagram{
+                    height: 30px;
+                }
+                .facebook{
+                    height: 30px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 451px) and (max-width: 960px){
+    footer{
+        .descrip-1{
+            .descripcion{
+                p{
+                    font-size: 17px ;
+                }
+            }
+            .redes{
+                .instagram{
+                    height: 40px;
+                }
+                .facebook{
+                    height: 40px;
+                }
             }
         }
     }

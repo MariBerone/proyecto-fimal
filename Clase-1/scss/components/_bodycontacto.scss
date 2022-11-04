@@ -11,10 +11,10 @@ main{
     }
     .sect-contacto1{
         .p2-contacto{
-            font-size: 17px;
+            font-size: 18px;
             font-style: inherit;
             color: rgb(15, 52, 96);
-            padding-top: 100px;
+            padding-top: 50px;
             padding-left: 40px;
             font-weight: bold;
         }
@@ -24,7 +24,49 @@ main{
             color: rgb(15, 52, 96);
             padding-left: 80px;
             padding-top: 7px;
-            padding-bottom: 130px;
+            padding-bottom: 40px;
+        }
+    }
+    .form-registro{
+        width: 60%;
+        background:  rgb(177, 215, 180);
+        padding: 10px;
+        margin: auto;
+        border-radius: 4px;
+        -webkit-box-shadow: 14px 9px 7px 0px rgba(207,201,207,1);
+        -moz-box-shadow: 14px 9px 7px 0px rgba(207,201,207,1);
+        box-shadow: 14px 9px 7px 0px rgba(207,201,207,1);
+        font-size: 17px;
+        font-style: inherit;
+        color: rgb(15, 52, 96);
+        font-weight: bold;
+        p{
+            margin-bottom: 5px;
+        }
+        .controls{
+            width: 95%;   
+            background: rgb(247, 246, 220);
+            padding: 6px;
+            border-radius: 4px;
+            margin-bottom: 6px;
+            border: 1px solid rgb(155, 161, 123);
+            font-size: 17px;
+        }
+        .controls-1{
+            width: 95%; 
+            background: rgb(247, 246, 220);
+            padding-bottom: 80px;
+            border-radius: 4px;
+            margin-bottom: 6px;
+            border: 1px solid rgb(155, 161, 123);
+            font-size: 17px;
+        }
+        .botons{
+            width: 15%;
+            background: rgb(247, 246, 220);
+            border:none;
+            padding: 6px;
+            margin: 10px;
         }
     }
 }

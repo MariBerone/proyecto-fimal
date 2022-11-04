@@ -119,6 +119,9 @@ h1:hover {
   width: 100%;
   position: absolute;
 }
+.main-conteiner .contenido {
+  text-align: center;
+}
 .main-conteiner .contenido .parrafo-uno {
   position: relative;
   font-size: 50px;
@@ -126,19 +129,18 @@ h1:hover {
   text-align: center;
   color: rgb(252, 249, 198);
   font-weight: bold;
-  padding-top: 150px;
+  padding-top: 170px;
 }
 .main-conteiner .contenido .asesorate {
-  position: relative;
-  font-size: 30px;
-  font-style: inherit;
-  text-align: center;
-  color: rgb(252, 249, 198);
+  width: 28%;
+  background: rgb(28, 56, 121);
+  border: 1px solid rgb(155, 161, 123);
   font-weight: bold;
-  padding-top: 100px;
-}
-.main-conteiner .contenido .asesorate strong {
-  background-color: blue;
+  border-radius: 4px;
+  color: rgb(155, 161, 123);
+  padding: 6px;
+  margin: 50px;
+  position: relative;
 }
 .main-conteiner .img-what {
   position: relative;
@@ -179,26 +181,23 @@ main .descripcion-lote {
   justify-content: space-between;
 }
 main .descripcion-lote .detalle {
-  padding-top: 40px;
-  padding-left: 80px;
   list-style: none;
 }
 main .descripcion-lote .detalle .pinche {
   height: 20px;
   width: 20px;
-  padding-left: 10px;
-  padding-top: 10px;
 }
 main .descripcion-lote .detalle .info {
+  text-align: center;
   font-size: 20px;
   font-style: inherit;
   color: rgb(15, 52, 96);
   padding-left: 20px;
 }
 main .descripcion-lote .imglotes {
-  width: 600px;
-  padding-right: 150px;
-  padding-top: 50px;
+  width: 500px;
+  padding-right: 50px;
+  padding-top: 40px;
 }
 main .sect3 {
   text-align: center;
@@ -367,10 +366,10 @@ main .sect-contacto0 .p-contacto {
   margin-top: 20px;
 }
 main .sect-contacto1 .p2-contacto {
-  font-size: 17px;
+  font-size: 18px;
   font-style: inherit;
   color: rgb(15, 52, 96);
-  padding-top: 100px;
+  padding-top: 50px;
   padding-left: 40px;
   font-weight: bold;
 }
@@ -380,7 +379,49 @@ main .sect-contacto1 .p3-contacto {
   color: rgb(15, 52, 96);
   padding-left: 80px;
   padding-top: 7px;
-  padding-bottom: 130px;
+  padding-bottom: 40px;
+}
+main .form-registro {
+  width: 60%;
+  background: rgb(177, 215, 180);
+  padding: 10px;
+  margin: auto;
+  border-radius: 4px;
+  -webkit-box-shadow: 14px 9px 7px 0px rgb(207, 201, 207);
+  -moz-box-shadow: 14px 9px 7px 0px rgb(207, 201, 207);
+  box-shadow: 14px 9px 7px 0px rgb(207, 201, 207);
+  font-size: 17px;
+  font-style: inherit;
+  color: rgb(15, 52, 96);
+  font-weight: bold;
+}
+main .form-registro p {
+  margin-bottom: 5px;
+}
+main .form-registro .controls {
+  width: 95%;
+  background: rgb(247, 246, 220);
+  padding: 6px;
+  border-radius: 4px;
+  margin-bottom: 6px;
+  border: 1px solid rgb(155, 161, 123);
+  font-size: 17px;
+}
+main .form-registro .controls-1 {
+  width: 95%;
+  background: rgb(247, 246, 220);
+  padding-bottom: 80px;
+  border-radius: 4px;
+  margin-bottom: 6px;
+  border: 1px solid rgb(155, 161, 123);
+  font-size: 17px;
+}
+main .form-registro .botons {
+  width: 15%;
+  background: rgb(247, 246, 220);
+  border: none;
+  padding: 6px;
+  margin: 10px;
 }
 
 footer .info-empresa .ubicacion, footer .info-empresa .cel, footer .info-empresa .email {
@@ -409,8 +450,8 @@ footer .info-empresa .ubicacion img, footer .info-empresa .cel img, footer .info
     font-size: 20px;
   }
   .main-conteiner .contenido .asesorate {
-    font-size: 15px;
-    padding-top: 50px;
+    width: 50%;
+    font-size: 13px;
   }
   .main-conteiner .img-what {
     width: 50px;
@@ -427,11 +468,11 @@ footer .info-empresa .ubicacion img, footer .info-empresa .cel img, footer .info
     width: 100%;
   }
   .main-conteiner .contenido .parrafo-uno {
-    font-size: 35px;
+    font-size: 25px;
   }
   .main-conteiner .contenido .asesorate {
-    font-size: 25px;
-    padding-top: 50px;
+    width: 60%;
+    font-size: 15px;
   }
   .main-conteiner .img-what {
     width: 60px;
@@ -443,6 +484,71 @@ footer .info-empresa .ubicacion img, footer .info-empresa .cel img, footer .info
   }
   .main-conteiner .info p {
     font-size: 8px;
+  }
+}
+/*Body Lotes*/
+@media only screen and (max-width: 450px) {
+  main .sect1 .p-lote {
+    font-size: 18px;
+  }
+  main .sect1 .p-lote1 {
+    font-size: 15px;
+  }
+  main .sect1 .p-lote2 {
+    font-size: 15px;
+  }
+  main .descripcion-lote {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+  main .descripcion-lote .detalle .info {
+    font-size: 13px;
+  }
+  main .descripcion-lote .imglotes {
+    align-items: center;
+    padding-left: 100px;
+    width: 450px;
+  }
+  main .sect3 .p-4 {
+    font-size: 18px;
+  }
+  main .sect3 .mapa {
+    height: 200px;
+    width: 350px;
+  }
+  main .sect4 .p-5 {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  main .sect1 .p-lote {
+    font-size: 22px;
+  }
+  main .sect1 .p-lote1 {
+    font-size: 18px;
+  }
+  main .sect1 .p-lote2 {
+    font-size: 18px;
+  }
+  main .descripcion-lote {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    align-items: center;
+  }
+  main .descripcion-lote .detalle .info {
+    font-size: 18px;
+  }
+  main .descripcion-lote .imglotes {
+    width: 100%;
+  }
+  main .sect3 .p-4 {
+    font-size: 22px;
+  }
+  main .sect3 .mapa {
+    height: 250px;
+    width: 300px;
   }
 }
 /*Body Amenities*/
@@ -559,67 +665,50 @@ footer .info-empresa .ubicacion img, footer .info-empresa .cel img, footer .info
     grid-auto-rows: 200px;
   }
 }
-/*Body Lotes*/
+/*Contato*/
 @media only screen and (max-width: 450px) {
-  main .sect1 .p-lotes {
+  main .sect-contacto0 .p-contacto {
     font-size: 18px;
   }
-  main .sect1 .p-lotes1 {
+  main .sect-contacto1 .p2-contacto {
     font-size: 15px;
   }
-  main .sect1 .p-lotes2 {
-    font-size: 15px;
-  }
-  main .descripcion-lote .detalle .pinche {
-    height: 16px;
-    width: 16px;
-  }
-  main .descripcion-lote .detalle .info {
-    font-size: 15px;
-  }
-  main .descripcion-lote .imglotes {
-    width: 350px;
-  }
-  main .sect3 .p-4 {
-    font-size: 15px;
-  }
-  main .sect3 .mapa {
-    height: 200px;
-    width: 100px;
-  }
-  main .sect4 .p-5 {
-    font-size: 20px;
+  main .sect-contacto1 .p-contacto3 {
+    font-size: 16px;
   }
 }
 @media only screen and (min-width: 451px) and (max-width: 960px) {
-  main .sect1 .p-lotes {
-    font-size: 21px;
-  }
-  main .sect1 .p-lotes1 {
-    font-size: 18px;
-  }
-  main .sect1 .p-lotes2 {
-    font-size: 18px;
-  }
-  main .descripcion-lote .detalle .pinche {
-    height: 18px;
-    width: 18px;
-  }
-  main .descripcion-lote .detalle .info {
-    font-size: 18px;
-  }
-  main .descripcion-lote .imglotes {
-    width: 450px;
-  }
-  main .sect3 .p-4 {
-    font-size: 18px;
-  }
-  main .sect3 .mapa {
-    height: 250px;
-    width: 200px;
-  }
-  main .sect4 .p-5 {
+  main .sect-contacto0 .p-contacto {
     font-size: 25px;
+  }
+  main .sect-contacto1 .p2-contacto {
+    font-size: 18px;
+  }
+  main .sect-contacto1 .p-contacto3 {
+    font-size: 18px;
+  }
+}
+/*Fotter*/
+@media only screen and (max-width: 450px) {
+  footer .descrip-1 .descripcion p {
+    font-size: 14px;
+  }
+  footer .descrip-1 .redes .instagram {
+    height: 30px;
+  }
+  footer .descrip-1 .redes .facebook {
+    height: 30px;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  footer .descrip-1 .descripcion p {
+    font-size: 17px;
+  }
+  footer .descrip-1 .redes .instagram {
+    height: 40px;
+  }
+  footer .descrip-1 .redes .facebook {
+    height: 40px;
   }
 }
 

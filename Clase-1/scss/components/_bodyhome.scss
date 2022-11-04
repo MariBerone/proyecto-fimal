@@ -13,15 +13,22 @@
 
     }
     .contenido{
+        text-align: center;
         .parrafo-uno{
 
-            @include estilo-index (relative, 50px, inherit, center,rgb(252, 249, 198), bold, 150px)
+            @include estilo-index (relative, 50px, inherit, center,rgb(252, 249, 198), bold, 170px)
         }
         .asesorate{
-            strong{
-                background-color: blue;
-                }
-            @include estilo-index (relative, 30px, inherit, center,rgb(252, 249, 198), bold, 100px)
+            width: 28%;
+            background: rgb(28, 56, 121);
+            border: 1px solid rgb(155, 161, 123);
+            font-weight: bold;
+            border-radius: 4px;
+            color: rgb(155, 161, 123) ;
+            padding: 6px;
+            margin: 50px;
+            position: relative;
+
         }
     }
     .img-what{
