@@ -132,7 +132,7 @@ h1:hover {
   padding-top: 170px;
 }
 .main-conteiner .contenido .asesorate {
-  width: 28%;
+  width: 30%;
   background: rgb(28, 56, 121);
   border: 1px solid rgb(155, 161, 123);
   font-weight: bold;
@@ -417,7 +417,7 @@ main .form-registro .controls-1 {
   font-size: 17px;
 }
 main .form-registro .botons {
-  width: 15%;
+  width: 22%;
   background: rgb(247, 246, 220);
   border: none;
   padding: 6px;
@@ -549,6 +549,9 @@ footer .info-empresa .ubicacion img, footer .info-empresa .cel img, footer .info
   main .sect3 .mapa {
     height: 250px;
     width: 300px;
+  }
+  main .sect4 .p-5 {
+    font-size: 25px;
   }
 }
 /*Body Amenities*/
